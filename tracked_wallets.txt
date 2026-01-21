@@ -1,0 +1,19 @@
+# Elite Solana Wallets to Track
+# Add wallet addresses here, one per line
+# Find top traders on: https://dexscreener.com/solana
+
+# Example format (replace with real elite wallet addresses):
+# 7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU
+# pump2eBLK62kC7d7tZZ62qg3KdUP7eGK2Y7VfmUP6gf
+
+# To find elite wallets:
+# 1. Go to dexscreener.com/solana
+# 2. Click on trending tokens
+# 3. Look at top holders/traders
+# 4. Find wallets with:
+#    - 75%+ win rate
+#    - 30+ trades minimum
+#    - Recent activity (last 7 days)
+#    - Consistent profits
+
+# Add your wallet addresses below:

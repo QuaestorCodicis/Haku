@@ -1,0 +1,47 @@
+[package]
+name = "trading-bot"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "bot"
+path = "src/main.rs"
+
+[[bin]]
+name = "generate-wallet"
+path = "src/bin/generate_wallet.rs"
+
+[[bin]]
+name = "bot-enhanced"
+path = "src/enhanced_main.rs"
+
+[[bin]]
+name = "find-wallets"
+path = "src/bin/find_wallets.rs"
+
+[[bin]]
+name = "backtest"
+path = "src/bin/backtest.rs"
+
+[dependencies]
+trading-core = { path = "../core" }
+trading-data = { path = "../data" }
+trading-analysis = { path = "../analysis" }
+
+tokio = { workspace = true }
+solana-sdk = { workspace = true }
+solana-client = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+dotenvy = { workspace = true }
+chrono = { workspace = true }
+rust_decimal = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+teloxide = { version = "0.12", features = ["macros"] }
+axum = "0.7"
+tower-http = { version = "0.5", features = ["fs", "cors"] }
+tokio-stream = { workspace = true }
+async-stream = "0.3"

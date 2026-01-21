@@ -1,0 +1,40 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Wallets (IMPORTANT: Never commit private keys!)
+*.json
+wallet/
+keys/
+
+# Build artifacts
+dist/
+build/
+
+# Testing
+coverage/
+
+# OS
+Thumbs.db

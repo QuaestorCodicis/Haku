@@ -1,0 +1,7 @@
+[package]
+name = "trading-strategy"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+trading-core = { path = "../core" }
