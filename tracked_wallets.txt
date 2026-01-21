@@ -17,3 +17,6 @@
 #    - Consistent profits
 
 # Add your wallet addresses below:
+# Example wallets - replace with real ones from dexscreener.com
+GrAkKfEpTKQuVHG2Y97Y2FF4i7y7Q5AHLK94JBy7Y5yv
+4xvPGHY8Bn3xJPmCkXiYNBr8tYJYbNvE5jZ9aPXq3DzQ

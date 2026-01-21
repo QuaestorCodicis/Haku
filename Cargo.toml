@@ -7,7 +7,7 @@ members = [
     "crates/trading",
     "crates/risk",
     "crates/strategy",
-    "crates/db",
+    # "crates/db",  # Not used - using file-based persistence instead
     "crates/bot",
 ]
 

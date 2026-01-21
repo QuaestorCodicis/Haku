@@ -31,6 +31,7 @@ trading-analysis = { path = "../analysis" }
 tokio = { workspace = true }
 solana-sdk = { workspace = true }
 solana-client = { workspace = true }
+bs58 = { workspace = true }
 anyhow = { workspace = true }
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true }
